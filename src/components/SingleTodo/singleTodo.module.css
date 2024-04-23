@@ -1,0 +1,55 @@
+.SingleTaskForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: rgb(67, 230, 230);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.SingleTodoInput {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    width: 200px;
+}
+
+
+/*------------ Styling for Icons ------------*/
+.Icons {
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    padding: 0.2rem 0.4rem;
+    transition: all 0.2s ease;
+}
+
+.Icons:last-child{
+    color: rgb(232, 80, 80);
+}
+
+.Icons:first-child {
+    color: blue;
+}
+
+.Icons:nth-child(2) {
+    color: green;
+}
+
+.Icons:hover {
+    cursor: pointer;
+    background-color: rgb(104, 255, 252);
+}
+
+.Icons:active {
+    background-color: rgb(12, 203, 200);
+}
+
+/*––––––––––––––– Style for Action button container ––––––––––––––*/
+.actionButtons {
+    display: flex;
+    gap: 5px;
+    width: fit-content;
+}

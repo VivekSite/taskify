@@ -1,0 +1,36 @@
+.taskForm {
+    display: flex;
+    justify-content: center;
+}
+
+.taskInput {
+    width: 50rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: none;
+    background-color: rgb(38, 105, 156);
+    position: relative;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.submitButton {
+    margin-left: 5px;
+    padding: 1rem;
+    background-color: rgb(48, 165, 112);
+    color: white;
+    border-radius: 20%;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+}
+
+.submitButton:hover {
+    background-color: rgb(151, 73, 225);
+    cursor: pointer;
+}
+
+.submitButton:active{
+    box-shadow: 1px 1px 2px black;
+}
